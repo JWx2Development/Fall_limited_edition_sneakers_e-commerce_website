@@ -72,7 +72,7 @@ function addProducts() {
     // Array of elements that make up the product
 
     var productsForSale = [
-        [src = '/images/image-product-1-thumbnail.jpg', 'Fall Limited Edition Sneakers', 125.00, '', 'Remove']
+        [src = 'images/image-product-1-thumbnail.jpg', 'Fall Limited Edition Sneakers', 125.00, '', 'Remove']
     ];
     var totalValue = document.getElementById('number').value * 125.00;
     var inputValue = document.getElementById('number').value;

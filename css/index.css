@@ -675,6 +675,10 @@ input#number {
     margin-top: -2.4rem;
   
 }
+
+.top_nav_hr {
+  margin: 2rem 2rem 3rem;
+}
   .logo_img {
     padding-right: 100px;
     padding-top: 11px;
@@ -721,11 +725,61 @@ input#number {
   .checkoutBtn {
     width: 35.5vw;
   }
-
-
-
-
-
-
-
 }
+/* screen size 2560px */
+@media screen and (min-width: 2560px) {
+
+  .topnav {
+    display: block;
+
+  }
+  .topnav > a {
+    margin-top: auto;
+  }
+  .cart_img {
+    margin-left: 75rem;
+    padding-bottom: 20px;
+  }
+
+  h1 {
+    margin-top: -50rem;
+    margin-left: -19rem;
+  }
+
+  h2 {
+    margin-left: 0;
+  }
+  .logo_img {
+    display: block;
+    margin-bottom: -2rem;
+  
+  }
+  
+  .hero_img {
+  margin: auto 9rem auto 10rem;
+  width: 67%;
+  }
+  
+  .slideshow-container {
+    position:inherit;
+    margin: inherit;
+  }
+
+  .description {
+    position: inherit;
+    margin-left: 60rem;
+  }
+  .price_now {
+    margin-left: 48rem;
+  }
+  form {
+    margin-left: 58.6rem;
+  }
+.add_to_cart_btn {
+  margin-left: 60.6rem;
+}
+
+
+
+  }
+
